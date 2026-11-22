@@ -1,0 +1,37 @@
+{
+  "model": "fixed",
+  "metrics": {
+    "accuracy": 0.8055358410220014,
+    "precision": 0.6572327044025157,
+    "recall": 0.5588235294117647,
+    "f1": 0.6040462427745664,
+    "roc_auc": 0.8418610659019866,
+    "confusion_matrix": [
+      [
+        926,
+        109
+      ],
+      [
+        165,
+        209
+      ]
+    ]
+  },
+  "metadata": {
+    "source_rows": 7043,
+    "rows_after_customer_dedup": 7043,
+    "duplicate_customer_rows_removed": 0,
+    "train_rows": 5634,
+    "test_rows": 1409,
+    "train_test_customer_overlap": 0,
+    "split_stratified": true,
+    "preprocessing_fit_scope": "training_split_only_inside_pipeline",
+    "leaky_features_removed": [
+      "churn_risk_score",
+      "post_outcome_churn_flag",
+      "churn_followup_flag",
+      "churn_case_flag",
+      "churn_after_event_flag"
+    ]
+  }
+}

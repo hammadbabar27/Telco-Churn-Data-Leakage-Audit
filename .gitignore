@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+# Dataset files are kept local, not committed.
+data/*.csv
+# Local run artifacts may be committed after reviewing them; uncomment if you prefer to exclude them.
+# outputs/

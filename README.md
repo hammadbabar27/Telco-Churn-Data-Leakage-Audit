@@ -79,7 +79,3 @@ python run_all.py --data-path "data/Telco-Customer-Churn.csv"
 - The fixed model's metrics are a better holdout estimate. They are still only one split, so a production model should be validated with cross-validation, temporal validation when applicable, and monitoring.
 - A lower fixed score is not a failure; it is the consequence of evaluating a model without shortcuts.
 
-
-## GitHub note
-
-Do not commit the downloaded CSV dataset unless your dataset license and repository policy explicitly allow it. The `.gitignore` excludes the downloaded `data/*.csv` files.
